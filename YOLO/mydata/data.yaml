@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../val/images
+
+nc: 6
+names: ['antelope', 'cat', 'crab', 'deer', 'eagle', 'wolf']
