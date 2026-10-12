@@ -5,7 +5,6 @@ from typing import override
 
 # 인터페이스 역할: 추상 메서드만 가진 추상 클래스
 class Drawable(ABC):
-    @abstractmethod
     def draw(self):
         pass
 
@@ -55,7 +54,7 @@ class Circle(Shape, Resizable):
 
     @override
     def draw(self):
-        print(f"○ 반지름 {self.radius}인 원을 그립니다.")
+        print(f"반지름 {self.radius}인 원을 그립니다.")
 
     @override
     def resize(self, ratio):
@@ -77,7 +76,7 @@ class Rectangle(Shape, Resizable):
 
     def draw(self):
         super().draw()  # 부모의 draw도 호출
-        print(f"□ {self.width} x {self.height} 사각형")
+        print(f"+{self.width} x {self.height} 사각형")
 
     def resize(self, ratio):
         self.width *= ratio
@@ -90,7 +89,7 @@ class Square(Rectangle):
         super().__init__(side, side, "정사각형")
 
     def draw(self):
-        print(f"■ 한 변 {self.width}인 정사각형")
+        print(f"한 변 {self.width}인 정사각형")
 
 
 # 자식 클래스 4: 삼각형 (Resizable 미구현, draw 재정의 안 함)
@@ -122,7 +121,7 @@ if __name__ == "__main__":
     for s in shapes:
         if isinstance(s, Resizable):  # 인터페이스 구현 여부 확인
             s.resize(2)
-            print("2배 확대 → ", end="")
+            print("2배 확대 -> ", end="")
             s.print_info()
         else:
             print(f"{s.name}은(는) 크기 조절 불가")
