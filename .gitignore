@@ -3,3 +3,22 @@
 runs/
 
 git_ws/
+
+# Python 캐시 (저장소 전체)
+__pycache__/
+*.py[cod]
+
+# mediaPipe: 수집 데이터 (얼굴 이미지 포함, 용량 큼)
+mediaPipe/data/
+mediaPipe/data_old/
+mediaPipe/eval/
+mediaPipe/check_data/
+
+# mediaPipe: 학습 결과 모델 (다시 학습해 만들 수 있음)
+mediaPipe/models/
+
+# mediaPipe: MediaPipe 모델 파일 (wget으로 다시 받을 수 있음)
+mediaPipe/**/*.task
+
+# mediaPipe: 이전 버전 보관
+mediaPipe/old/
