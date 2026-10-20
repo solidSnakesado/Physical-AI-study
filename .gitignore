@@ -22,3 +22,4 @@ mediaPipe/**/*.task
 
 # mediaPipe: 이전 버전 보관
 mediaPipe/old/
+.ipynb_checkpoints/
