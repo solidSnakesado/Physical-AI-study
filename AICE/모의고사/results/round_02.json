@@ -1,0 +1,14 @@
+{
+ "1": {
+  "ok": true,
+  "code": "import pandas as pd\nimport numpy as np\nimport seaborn as sns\nimport matplotlib.pyplot as plt"
+ },
+ "2": {
+  "ok": true,
+  "code": "df = pd.read_csv(\"datasets/churn_data.csv\")\ndf.info()"
+ },
+ "3": {
+  "ok": true,
+  "code": "sns.countplot(data=df, x=\"contract_type\")"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "1": {
+  "ok": true,
+  "code": "import pandas as pd\nimport numpy as np\nimport seaborn as sns\nimport matplotlib.pyplot as plt"
+ },
+ "2": {
+  "ok": true,
+  "code": "df = pd.read_csv(\"datasets/insurance.csv\")\ndf.head()"
+ },
+ "3": {
+  "ok": true,
+  "code": "sns.histplot(data=df, x=\"bmi\")"
+ },
+ "4": {
+  "ok": true,
+  "code": "sns.jointplot(data=df, x=\"bmi\", y=\"charges\")"
+ },
+ "5": {
+  "ok": true,
+  "code": "df_temp = df[(df[\"bmi\"] < 60) & (df[\"region\"].notna())]"
+ },
+ "6": {
+  "ok": true,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())\ndf_na = df_temp.dropna(subset=\"age\")"
+ },
+ "7": {
+  "ok": true,
+  "code": "df_del = df_na.drop(columns=\"policy_id\")"
+ },
+ "8": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ },
+ "9": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ },
+ "10": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ },
+ "11": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ },
+ "12": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ },
+ "13": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ },
+ "14": {
+  "ok": false,
+  "code": "df_temp[\"bmi\"] = df_temp[\"bmi\"].fillna(df_temp[\"bmi\"].mean())"
+ }
+}
