@@ -1,0 +1,26 @@
+[0.567s] Invoking command in '/home/sado/dev_ws/ros/src/my_first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sado/dev_ws/ros/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sado/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/sado/dev_ws/ros/build/my_first_package/build install --record /home/sado/dev_ws/ros/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
+[0.758s] running egg_info
+[0.771s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.771s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.772s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.772s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.772s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.800s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.800s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.801s] running build
+[0.801s] running build_py
+[0.801s] copying my_first_package/my_publisher.py -> /home/sado/dev_ws/ros/build/my_first_package/build/lib/my_first_package
+[0.801s] running install
+[0.805s] running install_lib
+[0.819s] copying /home/sado/dev_ws/ros/build/my_first_package/build/lib/my_first_package/my_publisher.py -> /home/sado/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[0.820s] byte-compiling /home/sado/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package/my_publisher.py to my_publisher.cpython-312.pyc
+[0.820s] running install_data
+[0.820s] running install_egg_info
+[0.835s] removing '/home/sado/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info' (and everything under it)
+[0.835s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/sado/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[0.836s] running install_scripts
+[0.929s] Installing my_first_node script to /home/sado/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.929s] Installing my_publisher script to /home/sado/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.929s] Installing my_subscriber script to /home/sado/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.929s] writing list of installed files to '/home/sado/dev_ws/ros/build/my_first_package/install.log'
+[0.947s] Invoked command in '/home/sado/dev_ws/ros/src/my_first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sado/dev_ws/ros/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sado/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/sado/dev_ws/ros/build/my_first_package/build install --record /home/sado/dev_ws/ros/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
