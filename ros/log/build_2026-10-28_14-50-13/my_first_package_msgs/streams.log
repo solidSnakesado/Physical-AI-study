@@ -1,0 +1,241 @@
+[0.153s] Invoking command in '/home/sado/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/sado/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
+[0.192s] [  1%] Built target my_first_package_msgs__rosidl_generator_type_description
+[0.194s] [  3%] Built target my_first_package_msgs__rs
+[0.201s] [  3%] Built target ament_cmake_python_copy_my_first_package_msgs
+[0.209s] [  5%] Built target my_first_package_msgs__cpp
+[0.211s] [ 25%] Built target my_first_package_msgs__rosidl_generator_c
+[0.225s] [ 34%] Built target my_first_package_msgs__rosidl_typesupport_c
+[0.226s] [ 43%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[0.228s] [ 52%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[0.228s] [ 61%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[0.228s] [ 70%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[0.229s] [ 80%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[0.243s] [ 80%] Built target my_first_package_msgs
+[0.258s] [ 81%] Built target my_first_package_msgs__py
+[0.277s] [ 89%] Built target my_first_package_msgs__rosidl_generator_py
+[0.293s] [ 92%] Built target my_first_package_msgs_s__rosidl_typesupport_fastrtps_c
+[0.295s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_c
+[0.295s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_introspection_c
+[0.330s] running egg_info
+[0.339s] writing my_first_package_msgs.egg-info/PKG-INFO
+[0.339s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[0.339s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[0.362s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.362s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.382s] [100%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[0.390s] Invoked command in '/home/sado/dev_ws/ros/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/sado/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
+[0.398s] Invoking command in '/home/sado/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/sado/dev_ws/ros/build/my_first_package_msgs
+[0.404s] -- Install configuration: ""
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.json
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.json
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.json
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[0.404s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.h
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.h
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.c
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.c
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__description.c
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.h
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.h
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c
+[0.405s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__description.c
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__description.c
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.c
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_c.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.406s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_c.h
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.c
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.hpp
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.hpp
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.407s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dds_fastrtps
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/dds_fastrtps
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/dds_fastrtps
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[0.408s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.cpp
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_cpp.hpp
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info
+[0.409s] -- Installing: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.409s] -- Installing: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[0.409s] -- Installing: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.409s] -- Installing: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/_dist_turtle_s.c
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/__init__.py
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/_dist_turtle.py
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so
+[0.409s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/__init__.py
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/__init__.py
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn_s.c
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn.py
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/__init__.py
+[0.410s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so
+[0.432s] Listing '/home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs'...
+[0.432s] Listing '/home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action'...
+[0.432s] Listing '/home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg'...
+[0.432s] Listing '/home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv'...
+[0.435s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/action
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/action/rmw.rs
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/action.rs
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/lib.rs
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/msg
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/msg/rmw.rs
+[0.436s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/srv.rs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/srv
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/srv/rmw.rs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/msg.rs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/build.rs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/Cargo.toml
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.idl
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.action
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[0.437s] -- Installing: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.437s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[0.438s] -- Up-to-date: /home/sado/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[0.439s] Invoked command in '/home/sado/dev_ws/ros/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/sado/dev_ws/ros/build/my_first_package_msgs

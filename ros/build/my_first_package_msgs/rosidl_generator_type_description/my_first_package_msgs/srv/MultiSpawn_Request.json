@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_first_package_msgs/srv/MultiSpawn_Request",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_first_package_msgs/srv/MultiSpawn_Request",
+      "hash_string": "RIHS01_45461a3bc0791ca60cc7da34b258b0174ab6cf2f6ab80f4250c7b96fd8aa349c"
+    }
+  ]
+}

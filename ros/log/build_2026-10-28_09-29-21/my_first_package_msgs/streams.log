@@ -1,0 +1,55 @@
+[0.155s] Invoking command in '/home/sado/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/sado/dev_ws/ros/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/sado/dev_ws/ros/install/my_first_package_msgs
+[0.253s] -- The C compiler identification is GNU 13.3.0
+[0.321s] -- The CXX compiler identification is GNU 13.3.0
+[0.337s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.423s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.501s] -- Detecting CXX compile features
+[0.501s] -- Detecting CXX compile features - done
+[0.505s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.587s] -- Found Python3: /home/sado/venv/ros/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.659s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.732s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.844s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.844s]   execute_process(/home/sado/venv/ros/bin/python3 -m rosidl_adapter
+[0.844s]   --package-name my_first_package_msgs --arguments-file
+[0.844s]   /home/sado/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter__arguments__my_first_package_msgs.json
+[0.844s]   --output-dir
+[0.844s]   /home/sado/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs
+[0.844s]   --output-file
+[0.844s]   /home/sado/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs.idls)
+[0.844s]   returned error code 1:
+[0.844s] 
+[0.844s]   Traceback (most recent call last):
+[0.844s] 
+[0.845s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.845s]     File "<frozen runpy>", line 88, in _run_code
+[0.845s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.845s]       sys.exit(main())
+[0.845s]                ^^^^^^
+[0.845s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.845s]       abs_idl_file = convert_to_idl(
+[0.845s]                      ^^^^^^^^^^^^^^^
+[0.845s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[0.845s]       from rosidl_adapter.msg import convert_msg_to_idl
+[0.845s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[0.845s]       from rosidl_adapter.resource import expand_template
+[0.845s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.845s]       import em
+[0.845s] 
+[0.845s]   ModuleNotFoundError: No module named 'em'
+[0.845s] 
+[0.845s] Call Stack (most recent call first):
+[0.845s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.845s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.845s] 
+[0.845s] [0m
+[0.845s] -- Configuring incomplete, errors occurred!
+[0.850s] Invoked command in '/home/sado/dev_ws/ros/build/my_first_package_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/sado/dev_ws/ros/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/sado/dev_ws/ros/install/my_first_package_msgs

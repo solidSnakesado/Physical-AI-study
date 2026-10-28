@@ -1,0 +1,3 @@
+/home/sado/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs:msg/CmdAndPoseVel.idl
+/home/sado/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs:srv/MultiSpawn.idl
+/home/sado/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs:action/DistTurtle.idl

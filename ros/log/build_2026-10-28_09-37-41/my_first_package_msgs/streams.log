@@ -1,0 +1,21 @@
+[0.156s] Invoking command in '/home/sado/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/sado/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
+[0.195s] [  2%] Built target my_first_package_msgs__rosidl_generator_type_description
+[0.195s] [  5%] Built target my_first_package_msgs__rs
+[0.200s] [  5%] Built target ament_cmake_python_copy_my_first_package_msgs
+[0.203s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.211s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.220s] Traceback (most recent call last):
+[0.220s]   File "/home/sado/dev_ws/ros/build/my_first_package_msgs/ament_cmake_python/my_first_package_msgs/setup.py", line 1, in <module>
+[0.220s]     from setuptools import find_packages
+[0.220s] ModuleNotFoundError: No module named 'setuptools'
+[0.222s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_first_package_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_my_first_package_msgs_egg] Error 1
+[0.222s] gmake[1]: *** [CMakeFiles/Makefile2:497: CMakeFiles/ament_cmake_python_build_my_first_package_msgs_egg.dir/all] Error 2
+[0.222s] gmake[1]: *** Waiting for unfinished jobs....
+[0.363s] [ 11%] Built target my_first_package_msgs__cpp
+[0.371s] [ 14%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__description.c.o[0m
+[0.372s] [ 20%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[0.372s] [ 20%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c.o[0m
+[0.418s] [ 22%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_generator_c.so[0m
+[0.444s] [ 22%] Built target my_first_package_msgs__rosidl_generator_c
+[0.444s] gmake: *** [Makefile:146: all] Error 2
+[0.446s] Invoked command in '/home/sado/dev_ws/ros/build/my_first_package_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/sado/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20

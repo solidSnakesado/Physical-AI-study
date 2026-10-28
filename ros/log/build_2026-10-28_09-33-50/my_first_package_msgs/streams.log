@@ -1,0 +1,34 @@
+[0.152s] Invoking command in '/home/sado/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/sado/dev_ws/ros/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/sado/dev_ws/ros/install/my_first_package_msgs
+[0.162s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.230s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.431s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.547s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.821s] -- Found Python3: /home/sado/venv/ros/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.871s] -- Found Python3: /home/sado/venv/ros/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.874s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.891s] -- Added test 'lint_cmake' to check CMake code style
+[0.892s] -- Added test 'xmllint' to check XML markup files
+[0.894s] -- Configuring done (0.7s)
+[0.913s] -- Generating done (0.0s)
+[0.920s] -- Build files have been written to: /home/sado/dev_ws/ros/build/my_first_package_msgs
+[0.926s] Invoked command in '/home/sado/dev_ws/ros/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/sado/dev_ws/ros/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/sado/dev_ws/ros/install/my_first_package_msgs
+[0.926s] Invoking command in '/home/sado/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/sado/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
+[0.962s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.963s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.970s] [  5%] Built target ament_cmake_python_copy_my_first_package_msgs
+[0.988s] Traceback (most recent call last):
+[0.989s]   File "/home/sado/dev_ws/ros/build/my_first_package_msgs/ament_cmake_python/my_first_package_msgs/setup.py", line 1, in <module>
+[0.989s]     from setuptools import find_packages
+[0.989s] ModuleNotFoundError: No module named 'setuptools'
+[0.991s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_first_package_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_my_first_package_msgs_egg] Error 1
+[0.991s] gmake[1]: *** [CMakeFiles/Makefile2:497: CMakeFiles/ament_cmake_python_build_my_first_package_msgs_egg.dir/all] Error 2
+[0.991s] gmake[1]: *** Waiting for unfinished jobs....
+[1.089s] [  5%] Built target my_first_package_msgs__rosidl_generator_type_description
+[1.102s] [  5%] Built target my_first_package_msgs__rs
+[1.103s] gmake: *** [Makefile:146: all] Error 2
+[1.105s] Invoked command in '/home/sado/dev_ws/ros/build/my_first_package_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sado/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/sado/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
